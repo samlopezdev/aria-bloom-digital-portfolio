@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=home,palette,settings&display=block);
+/* File Inspiration - https://www.youtube.com/watch?v=wGVOtu0DoKk */
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/src/assets/fonts/BeVietnamPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(/src/assets/fonts/BeVietnamPro-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/src/assets/fonts/BeVietnamPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(/src/assets/fonts/BeVietnamPro-Black.ttf);
+}
+
+@theme {
+    --color-primary: #e64c8c;
+    --color-light: #f8f6f7;
+    --color-dark: #211118;
+    --font-display: "Be Vietnam Pro", sans-serif
+}
+
+    /* Custom Font Properties */
+    /* :root {
+        --fs-14: calc(14 / 16 * 1rem);
+        --fs-16: calc(16 / 16 * 1rem);
+        --fs-24: calc(24 / 16 * 1rem);
+        --fs-36: calc(36 / 16 * 1rem);
+        --fs-42: calc(42 / 16 * 1rem);
+        --fs-48: calc(48 / 16 * 1rem);
+        --fs-72: calc(72 / 16 * 1rem);
+
+        --font-size-topnav: var(--fs-14);
+        --font-size-h1: var(--fs-42);
+        --font-size-h2: var(--fs-36);
+        --font-size-h3: var(--fs-24);
+
+        @media (width >= calc(600 / 16 * 1rem)) {
+            --font-size-topnav: var(--fs-16);
+            --font-size-h1: var(--fs-72);
+        }
+    }
+
+    /* Custom Color Properties */
+    /* :root {
+        --c-white: hsl(0, 0%, 100%);
+        --c-gray-dark: hsl(233, 14%, 25%);
+        --c-purple: hsl(232, 58%, 55%);
+        --c-teal: hsl(180, 100%, 42%);
+        --c-transparent: transparent;
+        --c-magenta: hsl(320, 85%, 41%);
+
+        --color-main-bg: var(--c-white);
+        --color-text-dark: var(--c-gray-dark);
+        --color-text-light: var(--c-white);
+        --color-header-bg: var(--c-purple);
+        --color-hero-bg: var(--c-purple);
+        --color-btn-primary-bg: var(--c-teal);
+        --color-btn-primary-text: var(--c-gray-dark);
+        --color-btn-secondary-bg: var(--c-transparent);
+        --color-btn-secondary-border: var(--c-white);
+        --color-btn-secondary-text: var(--c-white);
+        --color-fullwidth-bg: var(--c-magenta);
+    }
