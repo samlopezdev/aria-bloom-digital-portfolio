@@ -18,7 +18,7 @@ export const Header = () => {
               <a href="#portfolio">Portfolio</a>
             </li>
             <li className="text-slate-700 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium leading-normal border-b-2 border-transparent hover:border-b-primary">
-              <a href="#about">About</a>
+              <a href="/about">About</a>
             </li>
             <li className="bg-primary text-white rounded-lg flex min-w-25 cursor-pointer items-center justify-center h-10 px-5 text-sm font-bold shadow-lg shadow-primary/20 transition-transform hover:scale-105 active:scale-95">
               <a href="/contact">Hire Me</a>

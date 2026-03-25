@@ -1,4 +1,9 @@
-export const GetStartedListItem = ({ number, description }) => {
+interface GetStartedProps {
+    number: string,
+    description: string
+}
+
+export const GetStartedListItem = ({ number, description }: GetStartedProps) => {
     return (
         <li className="flex gap-2">
             <span className="text-primary font-bold text-lg">{number}</span>
