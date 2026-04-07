@@ -1,8 +1,8 @@
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { HeroAlt } from "../components/HeroAlt";
-import { CommisionInfo } from "../components/contact/CommissionInfo";
-import { PricingGuide } from "../components/contact/PricingGuide";
+import { CommisionInfo } from "../components/contact_page/CommissionInfo";
+import { PricingGuide } from "../components/contact_page/PricingGuide";
 
 export default function Contact() {
   return (

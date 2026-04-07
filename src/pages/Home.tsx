@@ -1,7 +1,7 @@
-import { Contact } from "../components/home/Contact";
-import { Gallery } from "../components/home/Gallery";
+import { Contact } from "../components/home_page/Contact";
+import { Gallery } from "../components/home_page/Gallery";
 import { Header } from "../components/Header";
-import { Hero } from "../components/home/Hero";
+import { Hero } from "../components/home_page/Hero";
 import { Footer } from "../components/Footer";
 
 export default function Home() {
