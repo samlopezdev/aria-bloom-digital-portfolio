@@ -21,8 +21,10 @@ export default function Contact() {
           <CommisionInfo />
           <PricingGuide />
           <PaymentInfo />
-          <Licensing />
-          <Deliverables />
+          <section className="grid grid-cols-1 md:grid-cols-12 gap-10 py-15">
+            <Licensing />
+            <Deliverables />
+          </section>
         </main>
         <Footer />
       </div>

@@ -7,7 +7,7 @@ import {
 
 export const Deliverables = () => {
     return (
-      <section className="md:col-span-4 bg-white rounded-3xl p-10 flex flex-col justify-center border-3 border-primary/20 shadow-lg shadow-primary/20">
+      <section className="md:col-span-4 bg-white rounded-3xl p-10 flex flex-col justify-center shadow-lg shadow-primary/20">
         <h2 className="text-2xl font-bold font-headline mb-8 flex items-center gap-2">
           <MdDownload className="text-primary text-3xl" /> Deliverables
         </h2>

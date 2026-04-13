@@ -44,6 +44,7 @@ export const CommisionInfo = () => {
         <ul className="space-y-5">
           {getStartedList.map((item) => (
             <GetStartedListItem
+              key={item.number}
               number={item.number}
               description={item.descritpion}
             />
