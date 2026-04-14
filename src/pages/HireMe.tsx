@@ -1,5 +1,6 @@
 import { MdCalendarToday, MdSend } from "react-icons/md";
 import { Header } from "../components/Header";
+import { HeroAlt } from "../components/HeroAlt";
 import { Footer } from "../components/Footer"
 
 export default function HireMe() {
@@ -7,7 +8,12 @@ export default function HireMe() {
     <div className="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden bg-light">
       <div className="flex h-full flex-col">
         <Header />
-        <main className="flex items-center justify-center lg:py-16 pt-0 px-2 md:px-4 lg:px-0 max-w-300">
+        <main className="flex flex-col items-center lg:py-16 max-w-300 m-auto">
+          <HeroAlt
+            titleStart="Let's Create Something "
+            titleEnd="Ethereal"
+            text="Transforming your ideas into ditital dreamscapes. Fill out the details below to start out collaborative journey."
+          />
           <section className="rounded-4xl p-8 md:p-12 shadow-lg shadow-primary/20 border border-primary/5 bg-white w-full">
             <form className="space-y-5">
               <fieldset className="flex gap-3">
