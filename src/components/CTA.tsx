@@ -16,11 +16,10 @@ export const CallToAction = ({ heading, text, btnText, link}: CallToActionProps)
             {text}
           </p>
         </div>
-        <a
-          href={link}
-          className="flex min-w-50 cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-lg font-bold shadow-xl shadow-primary/25 hover:scale-105 active:scale-95 transition-transform"
-        >
-          <button>{btnText}</button>
+        <a href={link}>
+          <button className="flex min-w-50 cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-lg font-bold shadow-xl shadow-primary/25 hover:scale-105 active:scale-95 transition-transform">
+            {btnText}
+          </button>
         </a>
       </section>
     );
