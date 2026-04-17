@@ -14,7 +14,7 @@ export default function Gallery() {
               text="A collection of completed works by Aria ethereal digital explorations where light meets petal in a dance of digital abstraction. Curated by Aria Bloom"
             />
             <section>
-              <div className="flex gap-3 flex-wrap">
+              <div className="flex gap-2 flex-wrap">
                 <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2">
                   <img
                     src="src/assets/images/fantasy-couple.webp"
