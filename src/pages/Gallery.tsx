@@ -3,53 +3,121 @@ import { Header } from "../components/Header";
 import { HeroAlt } from "../components/HeroAlt";
 
 export default function Gallery() {
-    return (
-      <div className="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden bg-light">
-        <div className="flex h-full flex-col">
-          <Header />
-          <main className="flex flex-col items-center lg:py-16 max-w-300 m-auto">
-            <HeroAlt
-              titleStart="Artwork"
-              titleEnd="Gallery"
-              text="A collection of completed works by Aria ethereal digital explorations where light meets petal in a dance of digital abstraction. Curated by Aria Bloom"
-            />
-            <section>
-              <div className="flex gap-2 flex-wrap">
-                <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2">
-                  <img
-                    src="src/assets/images/fantasy-couple.webp"
-                    className="w-full h-64 object-cover rounded-lg"
-                  />
-                </div>
-                <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2">
-                  <img
-                    src="src/assets/images/fantasy-couple.webp"
-                    className="w-full h-64 object-cover rounded-lg"
-                  />
-                </div>
-                <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2">
-                  <img
-                    src="src/assets/images/fantasy-couple.webp"
-                    className="w-full h-64 object-cover rounded-lg"
-                  />
-                </div>
-                <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-2">
-                  <img
-                    src="src/assets/images/fantasy-couple.webp"
-                    className="w-full h-60 object-cover rounded-lg"
-                  />
-                </div>
-                
+  return (
+    <div className="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden bg-light">
+      <div className="flex h-full flex-col">
+        <Header />
+        <main className="flex flex-col items-center lg:py-16 max-w-300 m-auto">
+          <HeroAlt
+            titleStart="Artwork"
+            titleEnd="Gallery"
+            text="A collection of completed works by Aria ethereal digital explorations where light meets petal in a dance of digital abstraction. Curated by Aria Bloom"
+          />
+          <section className="-m-1 flex flex-row sm:flex-wrap md:-m-2">
+            <div className="flex w-full sm:w-1/2 flex-wrap lg:flex-row flex-row-reverse">
+              <div className="w-full lg:w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
+                  src="https://www.tailwindtap.com/assets/components/gallery/image1.jpg"
+                />
               </div>
-            </section>
-            <CallToAction
-              heading="Call to Action"
-              text="Send to About page plz"
-              btnText="About Me"
-              link="/about"
-            />
-          </main>
-        </div>
+              <div className="w-full lg:w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
+                  src="https://www.tailwindtap.com/assets/components/gallery/image2.jpg"
+                />
+              </div>
+              <div className="w-full p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center max-h-none lg:max-h-[1000px]"
+                  src="https://www.tailwindtap.com/assets/components/gallery/image7.jpg"
+                />
+              </div>
+            </div>
+            <div className="flex w-full sm:w-1/2 flex-wrap">
+              <div className="w-full p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
+                  src="https://www.tailwindtap.com/assets/components/gallery/image9.jpg"
+                />
+              </div>
+              <div className="w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
+                  src="https://www.tailwindtap.com/assets/components/gallery/image4.jpg"
+                />
+              </div>
+              <div className="w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
+                  src="https://www.tailwindtap.com/assets/components/gallery/image6.jpg"
+                />
+              </div>
+            </div>
+          </section>
+          <section className="-m-1 flex flex-row sm:flex-wrap md:-m-2 py-4">
+            <div className="flex w-full sm:w-1/2 flex-wrap lg:flex-row flex-row-reverse">
+              <div className="w-full lg:w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
+                  src="https://www.tailwindtap.com/assets/components/gallery/image1.jpg"
+                />
+              </div>
+              <div className="w-full lg:w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
+                  src="https://www.tailwindtap.com/assets/components/gallery/image2.jpg"
+                />
+              </div>
+              <div className="w-full p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center max-h-none lg:max-h-[1000px]"
+                  src="https://www.tailwindtap.com/assets/components/gallery/image7.jpg"
+                />
+              </div>
+            </div>
+            <div className="flex w-full sm:w-1/2 flex-wrap">
+              <div className="w-full p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
+                  src="https://www.tailwindtap.com/assets/components/gallery/image9.jpg"
+                />
+              </div>
+              <div className="w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
+                  src="https://www.tailwindtap.com/assets/components/gallery/image4.jpg"
+                />
+              </div>
+              <div className="w-1/2 p-1 md:p-2">
+                <img
+                  alt="gallery"
+                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
+                  src="https://www.tailwindtap.com/assets/components/gallery/image6.jpg"
+                />
+              </div>
+            </div>
+          </section>
+
+          <CallToAction
+            heading="Call to Action"
+            text="Send to About page plz"
+            btnText="About Me"
+            link="/about"
+          />
+        </main>
       </div>
-    );
+    </div>
+  );
 }
