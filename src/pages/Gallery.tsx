@@ -19,21 +19,21 @@ export default function Gallery() {
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
-                  src="https://www.tailwindtap.com/assets/components/gallery/image1.jpg"
+                  src="src/assets/images/fullmoon-fantasy.webp"
                 />
               </div>
               <div className="w-full lg:w-1/2 p-1 md:p-2">
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
-                  src="https://www.tailwindtap.com/assets/components/gallery/image2.jpg"
+                  src="src/assets/images/royal-courtyard.webp"
                 />
               </div>
               <div className="w-full p-1 md:p-2">
                 <img
                   alt="gallery"
-                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center max-h-none lg:max-h-[1000px]"
-                  src="https://www.tailwindtap.com/assets/components/gallery/image7.jpg"
+                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center max-h-none lg:max-h-250"
+                  src="src/assets/images/cotton-candy-clouds.webp"
                 />
               </div>
             </div>
@@ -42,21 +42,21 @@ export default function Gallery() {
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
-                  src="https://www.tailwindtap.com/assets/components/gallery/image9.jpg"
+                  src="src/assets/images/flower-girl.webp"
                 />
               </div>
               <div className="w-1/2 p-1 md:p-2">
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
-                  src="https://www.tailwindtap.com/assets/components/gallery/image4.jpg"
+                  src="src/assets/images/bell-flowers-pastel.webp"
                 />
               </div>
               <div className="w-1/2 p-1 md:p-2">
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
-                  src="https://www.tailwindtap.com/assets/components/gallery/image6.jpg"
+                  src="src/assets/images/snowy-path.webp"
                 />
               </div>
             </div>
@@ -67,21 +67,21 @@ export default function Gallery() {
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
-                  src="https://www.tailwindtap.com/assets/components/gallery/image1.jpg"
+                  src="src/assets/images/fantasy-castle.webp"
                 />
               </div>
               <div className="w-full lg:w-1/2 p-1 md:p-2">
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
-                  src="https://www.tailwindtap.com/assets/components/gallery/image2.jpg"
+                  src="src/assets/images/ocean-shoreline.webp"
                 />
               </div>
               <div className="w-full p-1 md:p-2">
                 <img
                   alt="gallery"
-                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center max-h-none lg:max-h-[1000px]"
-                  src="https://www.tailwindtap.com/assets/components/gallery/image7.jpg"
+                  className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center max-h-none lg:max-h-250"
+                  src="src/assets/images/lake-sunset.webp"
                 />
               </div>
             </div>
@@ -90,21 +90,21 @@ export default function Gallery() {
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
-                  src="https://www.tailwindtap.com/assets/components/gallery/image9.jpg"
+                  src="src/assets/images/snowday.webp"
                 />
               </div>
               <div className="w-1/2 p-1 md:p-2">
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
-                  src="https://www.tailwindtap.com/assets/components/gallery/image4.jpg"
+                  src="src/assets/images/pastel-meadow.webp"
                 />
               </div>
               <div className="w-1/2 p-1 md:p-2">
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg 2xl:rounded-2xl object-cover object-center"
-                  src="https://www.tailwindtap.com/assets/components/gallery/image6.jpg"
+                  src="src/assets/images/snowy-mountain.webp"
                 />
               </div>
             </div>
